@@ -47,9 +47,9 @@ Through MCP, an AI client can read and edit strategy sources, compile them, down
 and interactive simulations, read statistics and rendered charts, and work with the project's version history.
 
 The MCP server exposes a single tool catalog. Every tool carries the standard MCP annotations
-(`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`). Those annotations are advisory hints for
-clients — the application's own runtime checks, including the explicit confirmation arguments required by specific
-operations, remain authoritative.
+(`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`). Those annotations are advisory hints that
+describe intent — they are not proof that anything is enforced. What actually protects an operation is its own input
+schema and the runtime checks the application performs when the operation is invoked, which differ per operation.
 
 - MCP overview: <https://xtester.pw/mcp>
 - Setup instructions: <https://xtester.pw/mcp/install>
@@ -81,8 +81,9 @@ features. Configuring MCP for your AI client is described at <https://xtester.pw
   downloading exchange market history and symbol/funding metadata, calling AI providers you configure, checking for
   application updates, and — if you set them up — reaching an exchange for live or paper execution. Which of these
   happen depends on what you use.
-- **Credentials stay on your machine.** Exchange API keys and AI provider keys you enter are stored locally in your
-  user profile and are not returned by MCP tools or shown in diagnostics.
+- **Credentials are stored locally.** Exchange API keys and AI provider keys you enter are kept in your user profile
+  and are not returned by MCP tools or shown in diagnostics. A credential is sent only to the external service you
+  explicitly configured it for, and only when that service requires authentication.
 - **Telemetry is opt-in.** Diagnostic telemetry is disabled unless you explicitly allow it, and it never carries
   strategy code, prompts, AI responses, credentials, balances, positions, orders, or file contents.
 - **Trading is explicit.** Historical testing never touches an exchange account. Real-money execution is a separate,
