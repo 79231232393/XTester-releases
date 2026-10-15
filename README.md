@@ -99,15 +99,15 @@ Details, including the MCP boundary and what each tool can reach, are documented
 
 - Releases and downloadable packages are published here as tagged GitHub Releases.
 - **Starting with Studio 1.0.0-alpha.3, the app checks this repository and offers Update when a newer compatible version is available.** Update downloads the matching full package, verifies its size and SHA-256, asks to save unsaved work, and installs it after Studio closes. This is not a delta-update system.
-- **Existing alpha.2 users must install alpha.3 manually once.** Alpha.2 points to an unavailable older release feed and cannot install this new updater by itself.
+- **Existing alpha.2 users must install the current Studio release manually once from the Latest release link above.** Alpha.2 points to an unavailable older release feed and cannot install this new updater by itself.
 - Windows per-user installations use the EXE installer. Portable Windows, macOS and unmanaged Linux installations use archive replacement. Linux DEB/RPM installations request authorization through the system package manager. OS trust prompts and writable-installation requirements still apply.
 - Archive updates preserve portable data and retain the previous application for recovery. A failed or cancelled download is never installed; installation errors are reported on a subsequent launch.
 - Update checks respect the app's update settings, administrative policy and metered connections. Updates are installed only after the user chooses the update action.
-- Alpha.3 restarts updates with default launch options. If you use custom `--user-data-dir`, `--extensions-dir` or `--shared-data-dir`, reopen through your original shortcut after updating; their files remain on disk.
+- The update helper restarts Studio with default launch options. If you use custom `--user-data-dir`, `--extensions-dir` or `--shared-data-dir`, reopen through your original shortcut after updating; their files remain on disk.
 - Updating the root `ver.txt` changes the version during a subsequent build; it does not publish packages or update installed copies.
-- Release notes are attached to each GitHub Release. The Studio changelog starts at `1.0.0-alpha.2`; legacy `0.0.91` is retained separately.
-- WinGet keeps the existing `Elinesoft.XTester` identifier. [Alpha.3 PR #442609](https://github.com/microsoft/winget-pkgs/pull/442609) has been submitted and awaits catalogue validation and review; submission does not mean availability through WinGet.
-- The global MCP Registry entry `pw.xtester/xtester` is published as `1.0.0-alpha.3`, Active and Latest, with 272 tools.
+- The current Studio release includes consolidated highlights from the alpha series. The classic `v.0.0.91` release and all its assets are retained permanently.
+- WinGet keeps the existing `Elinesoft.XTester` identifier. Check the currently available catalog version with `winget show --id Elinesoft.XTester --exact --source winget`; a submitted catalog PR does not establish availability.
+- For the current published version and status of `pw.xtester/xtester`, see the [latest MCP Registry record](https://registry.modelcontextprotocol.io/v0.1/servers/pw.xtester%2Fxtester/versions/latest). Download the matching MCP catalog and manifest from the same Studio release.
 - The [latest release](https://github.com/79231232393/XTester-releases/releases/latest) is currently an alpha, even though its GitHub prerelease flag is disabled for website integration.
 
 ## Release publishing language
