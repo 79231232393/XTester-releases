@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:03:01.799707+00:00",
+  "updated": "2026-10-21T17:09:10.640113+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -14,6 +14,7 @@
     }
   },
   "log": [
-    "OK NO_NEW_PUBLICATIONS"
+    "OK NO_NEW_PUBLICATIONS",
+    "FAIL sq-13-bossfight-en: square native_video_unsupported_by_canonical_writer"
   ]
 }
