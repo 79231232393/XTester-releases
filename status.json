@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:09:10.640113+00:00",
+  "updated": "2026-10-21T17:31:27.227053+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -15,6 +15,6 @@
   },
   "log": [
     "OK NO_NEW_PUBLICATIONS",
-    "FAIL sq-13-bossfight-en: square native_video_unsupported_by_canonical_writer"
+    "FAIL sq-13-bossfight-en: square BLOCKED_NOT_SENT editorial_REVISE: unsupported most-bots claim; unproven TESTED/every-market-phase/SURVIVED video claims and tiny illustrative label. Native code implemented/offline tested; live video unverified; not sent."
   ]
 }
