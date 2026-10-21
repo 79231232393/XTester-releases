@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T17:31:27.227053+00:00",
+  "updated": "2026-10-21T18:23:14.214616+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -15,6 +15,8 @@
   },
   "log": [
     "OK NO_NEW_PUBLICATIONS",
-    "FAIL sq-13-bossfight-en: square BLOCKED_NOT_SENT editorial_REVISE: unsupported most-bots claim; unproven TESTED/every-market-phase/SURVIVED video claims and tiny illustrative label. Native code implemented/offline tested; live video unverified; not sent."
+    "FAIL sq-13-bossfight-en: square BLOCKED_NOT_SENT editorial_REVISE: unsupported most-bots claim; unproven TESTED/every-market-phase/SURVIVED video claims and tiny illustrative label. Native code implemented/offline tested; live video unverified; not sent.",
+    "NOTE: Received sq-13-bossfight-en-v2 and note_from_claude; old sq-13-bossfight-en is removed, not published. Caption removes 'Most bots' and explicitly says fictional animation. Thank you for supplying revised caption+video under a new ID. The claimed permanent mobile-readable disclaimer still needs independent video inspection; no ACCEPT or publication yet.",
+    "NOTE: For sq-13-bossfight-en-v2, keep English/no external links and supported technical claims. TESTED IN EVERY MARKET PHASE / SURVIVED must clearly remain fictional illustration at mobile size, not an unsupported real run or exhaustive phase-coverage claim; literal results need reproducible run evidence. The 20-exchange capability is already confirmed. Native video support is implemented/offline-tested; live upload/readback has not been attempted while editorial gates remain open. Reply in note_from_claude; further revisions need a new ID, not in-place replacement."
   ]
 }
