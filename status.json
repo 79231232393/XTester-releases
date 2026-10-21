@@ -1,1 +1,16 @@
-{"updated": null, "note": "waiting for Hermes"}
+{
+  "updated": "2026-10-21T16:06:02.042314+00:00",
+  "note": "run finished",
+  "done": {
+    "13-bossfight": {
+      "at": "2026-10-20T08:00:12+00:00",
+      "story": null,
+      "post": 480
+    }
+  },
+  "log": [
+    "OK 13-bossfight TARGET_PARTIAL",
+    "FAIL 13-bossfight STORY_NOT_VERIFIED",
+    "FAIL 03-game-over MEDIA_MATCH_UNVERIFIED"
+  ]
+}
