@@ -1,16 +1,19 @@
 {
-  "updated": "2026-10-21T16:27:15.173448+00:00",
+  "updated": "2026-10-21T16:32:49.099904+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
       "at": "2026-10-20T08:00:12+00:00",
       "story": null,
       "post": 480
+    },
+    "03-game-over": {
+      "at": "2026-10-21T16:26:50+00:00",
+      "story": 9,
+      "post": null
     }
   },
   "log": [
-    "OK NO_NEW_PUBLICATIONS",
-    "OK NO_NEW_PUBLICATIONS",
-    "FAIL PUBLISHER_BLOCKED"
+    "OK NO_NEW_PUBLICATIONS"
   ]
 }
