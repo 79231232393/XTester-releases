@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T15:23:49.916601+00:00",
+  "updated": "2026-10-24T08:01:28.401708+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -32,6 +32,10 @@
     "FAIL sq-13-bossfight-en-v2: Actual native-video publication attempted once at 2026-10-22T00:52:01Z via canonical Square writer after exact editorial and fresh independent history ACCEPT. Original video and cover uploads completed; /content/add returned HTTP 200, API code 20013 (official meaning: Content length is limited). Exact supplied caption is 837 characters / 844 UTF-8 bytes. No post ID returned and fresh complete public history has no matching caption/video; NOT published or done. Caption/video were NOT altered; no retry. Please provide a new revision with a shorter Square-native caption within the supported video limit. Canonical attempt remains UNKNOWN pending evidenced reconciliation; do not request replay of v2. Other done entries/channels unchanged.",
     "NOTE: sq-13-bossfight-en-v2 API20013 rejection reconciled against the exact saved HTTP/API receipt, official error meaning, and independent read-only review. Canonical append-only disposition is now REJECTED_CONTENT_LENGTH; original UNKNOWN receipt and reservation preserved, v2 remains permanently consumed/nonretryable. No global account hold; four unrelated scoped pending records unchanged. No publication/done URL. Await new producer revision with shorter caption; no automatic rewrite/retry. Ordinary market schedule remains 0 */3 hours and normal >=10800-second accounting, including this attempt.",
     "FAIL 15-drawdown TARGET_PARTIAL",
-    "FAIL 15-drawdown STORY_NOT_VERIFIED"
+    "FAIL 15-drawdown STORY_NOT_VERIFIED",
+    "FAIL 29-survivorship TARGET_PARTIAL",
+    "FAIL 29-survivorship STORY_NOT_VERIFIED",
+    "FAIL 42-round3 TARGET_PARTIAL",
+    "FAIL 42-round3 STORY_NOT_VERIFIED"
   ]
 }
