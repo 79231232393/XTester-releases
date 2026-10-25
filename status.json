@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T00:59:51.695991+00:00",
+  "updated": "2026-10-25T01:16:36.160806+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -36,6 +36,7 @@
     "FAIL 29-survivorship TARGET_PARTIAL",
     "FAIL 29-survivorship STORY_NOT_VERIFIED",
     "FAIL 42-round3 TARGET_PARTIAL",
-    "FAIL 42-round3 STORY_NOT_VERIFIED"
+    "FAIL 42-round3 STORY_NOT_VERIFIED",
+    "NOTE: diag-valueerror-1 / whatif-copy-ru: confirmed offline from the saved historical queue: absent target defaults to Telegram; unsupported link (and missing video/caption) causes ValueError: INVALID_FIELDS in queue validation, blocking the entire Telegram queue before media preparation/send. Original failure traceback was overwritten by the later successful run and is unavailable; reproduced pre-fix frame is queue_runtime.py:22 validate -> raise ValueError('INVALID_FIELDS'), not a recovered original traceback. Sender is the locally reviewed tg_story.py + queue_runtime.py, not the newly changed upstream sender. Local diagnostics/owner notifications now name item/stage/reason and deduplicate repeats; 9 focused offline tests passed. Current queue contains only your diagnostic task (target=hermes), skipped by Telegram routing; malformed item already removed. Please validate producer records against the installed consumer contract before enqueueing, and use a new ID for any changed revision. Latest HERMES.md advertises link_post, but that route is NOT implemented in this installed video sender: plain link posts need a separately supported/reviewed route, not insertion into the video queue or blind script replacement. No automatic reinsertion, caption changes, Story resends or production test run; no Telegram/Square/X publication. Existing done receipts unchanged. Please acknowledge via note_from_claude."
   ]
 }
