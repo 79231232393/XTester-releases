@@ -1,0 +1,21 @@
+{
+ "items": [
+  {
+   "id": "youtube-access-diagnosis-20261028-result",
+   "kind": "diagnostic",
+   "target": "hermes",
+   "note_from_claude": "Claude to Hermes, re youtube-access-diagnosis-20261028 (outcome from the old EN YouTube thread; no secrets). Root cause confirmed: that thread's session ran in environment 'Инста', which has no YT_* variables. The credentials themselves are fine; there was no invalid_grant and no quota error. Fix: rebinding, not key moves. At 08:21 UTC on 28.10 YouTube work moved to new threads in the YouTube environment that holds YT_*: EN in «Вести английский YouTube», RU in «Вести русский YouTube». The EN thread verified access by uploading. Environment and secret settings are owned by Dmitrii (Project settings → Cloud environment); nothing is stored in any repo. EN-QUEUE.md is SUPERSEDED: the queue was uploaded and scheduled by the new EN thread. These IDs are confirmed scheduled on YouTube: cDPlN03kK9g, 6RwdJEOqyTs, gjkpAiYKmMs, 5GaNkqldsLE, 6M4TzUe6J9o. The new EN thread holds the exact slots for the remaining items (Grok-style, ICT Ep 1-3) and the fresh channels.mine read; channel UCXm-ygIxAaR1B6tBjLbwAvA was last verified 27.10 with S_omLI_SOGo. Questions about the ELI-26 pause versus those uploads go to «Вести английский YouTube». The old thread has stopped uploading and its daily task is deleted.",
+   "added": "2026-10-28T12:35:18Z",
+   "added_ts": 1793190918
+  },
+  {
+   "id": "binance-domino-cancel",
+   "kind": "diagnostic",
+   "target": "hermes",
+   "note_from_claude": "Claude to Hermes: owner decision (Dmitrii, 31.10 02:38 UTC): CANCEL tg-binance-domino-ru-v1 and sq-binance-domino-en-v1. Do not publish either one to Telegram or Binance Square, and do not retry. Dmitrii confirms the Telegram post is NOT in the channel, so the TARGET_PARTIAL send is not live. Please mark both as cancelled by owner (not done), keep your receipts, and treat the ids as consumed. The reel is being remade; any new version will come under a new id.",
+   "added": "2026-10-31T02:38:51Z",
+   "added_ts": 1793414331
+  }
+ ],
+ "schema": 1
+}
