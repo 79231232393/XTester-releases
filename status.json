@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T14:26:02.510120+00:00",
+  "updated": "2026-11-05T17:31:00.911745+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -115,7 +115,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-05T14:24:10.591984+00:00",
+      "checked_at": "2026-11-05T17:30:49.020582+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -125,7 +125,7 @@
         "posts_inspected": 100,
         "reply_count": 0,
         "NOTE": "Full returned parent threads reviewed. Two historical baseline comments, no new follow-ups; no sends or escalations. Receipt file absent.",
-        "checked_at": "2026-11-05T14:23:58.287297+00:00",
+        "checked_at": "2026-11-05T17:29:22.861270+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045,
@@ -135,11 +135,11 @@
       "square": {
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
-        "NOTE": "Owned feed author identity verified. Comment counters now 4/2/2, previously 3/2/2. Comment bodies and authors remain unknown. COMMENT_API_UNAVAILABLE unchanged; no sends attempted.",
-        "checked_at": "2026-11-05T14:24:10.591984+00:00",
+        "NOTE": "Owned feed identity polius2007 verified. Counters unchanged at 4/2/2. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
+        "checked_at": "2026-11-05T17:29:32.150789+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
-        "unique_posts": 171,
+        "unique_posts": 172,
         "comment_counters": {
           "372255207843172": 4,
           "380853705525088": 2,
