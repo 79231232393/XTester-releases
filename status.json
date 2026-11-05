@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T11:21:22.116154+00:00",
+  "updated": "2026-11-05T14:26:02.510120+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -115,7 +115,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-05T11:20:59.871687+00:00",
+      "checked_at": "2026-11-05T14:24:10.591984+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -124,8 +124,8 @@
         "discussion_group_id": 1243761693,
         "posts_inspected": 100,
         "reply_count": 0,
-        "NOTE": "Two historical thread comments found (2025-11-14 complaint, 2024-10-12 money/trader question), no new comments since owner approval in bounded latest-100-post scan. Did not resurrect old complaints or fabricate ordinary replies. Existing locked Telethon session works.",
-        "checked_at": "2026-11-05T11:18:16.301772+00:00",
+        "NOTE": "Full returned parent threads reviewed. Two historical baseline comments, no new follow-ups; no sends or escalations. Receipt file absent.",
+        "checked_at": "2026-11-05T14:23:58.287297+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045,
@@ -135,18 +135,18 @@
       "square": {
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
-        "NOTE": "Owned feed and author identity verified. Counters increased from 2/1/1 to 3/2/2; comment bodies and authors remain unknown. Existing COMMENT_API_UNAVAILABLE unchanged; no sends attempted.",
-        "checked_at": "2026-11-05T11:18:29.146528+00:00",
+        "NOTE": "Owned feed author identity verified. Comment counters now 4/2/2, previously 3/2/2. Comment bodies and authors remain unknown. COMMENT_API_UNAVAILABLE unchanged; no sends attempted.",
+        "checked_at": "2026-11-05T14:24:10.591984+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
-        "unique_posts": 170,
+        "unique_posts": 171,
         "comment_counters": {
-          "372255207843172": 3,
+          "372255207843172": 4,
           "380853705525088": 2,
           "379346865303487": 2
         }
       },
-      "NOTE": "Scheduled bounded read completed. No new Telegram comments after baseline; no replies or escalations. Square counters do not establish comment-body review. Existing blocker retained. No scheduler or source queue changes.",
+      "NOTE": "Bounded reads succeeded. No new Telegram comments, verified replies, or escalations. Square positive counters do not establish body review. No material blocker change; quiet cycle. No scheduler or source queue changes.",
       "new_reply_receipts": [],
       "new_escalations": []
     }
