@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:51:20.524456+00:00",
+  "updated": "2026-11-07T09:55:00.062067+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -116,7 +116,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-07T06:49:37.831874+00:00",
+      "checked_at": "2026-11-07T09:54:15.741447+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -126,7 +126,7 @@
         "posts_inspected": 100,
         "reply_count": 0,
         "NOTE": "Full returned parent threads reviewed. Two historical baseline comments, no new follow-ups; no sends or escalations. Receipt file absent.",
-        "checked_at": "2026-11-07T06:48:46.225853+00:00",
+        "checked_at": "2026-11-07T09:54:05.400397+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045,
@@ -137,7 +137,7 @@
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
         "NOTE": "Owned feed username polius2007 verified. Comment counters unchanged. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
-        "checked_at": "2026-11-07T06:49:37.831874+00:00",
+        "checked_at": "2026-11-07T09:54:15.741447+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
         "unique_posts": 183,
@@ -148,7 +148,7 @@
         },
         "counter_changes": {}
       },
-      "NOTE": "Full returned Telegram threads reviewed; historical baseline only. Square first capture changed during pagination; one bounded retry succeeded. No new replies or escalations. Square comment transport blocker unchanged. No scheduler or source queue changes.",
+      "NOTE": "Full returned Telegram threads reviewed; historical baseline only, no new follow-ups. Square owned-feed counters unchanged; comment bodies unavailable. No sends or escalations. No scheduler or source queue changes.",
       "new_reply_receipts": [],
       "new_escalations": []
     }
