@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T21:41:55.763543+00:00",
+  "updated": "2026-11-07T00:43:47.754732+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -116,7 +116,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-06T21:41:54.866070+00:00",
+      "checked_at": "2026-11-07T00:42:48.398179+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -126,7 +126,7 @@
         "posts_inspected": 100,
         "reply_count": 0,
         "NOTE": "Full returned parent threads reviewed. Two historical baseline comments, no new follow-ups; no sends or escalations. Receipt file absent.",
-        "checked_at": "2026-11-06T21:40:37.264285+00:00",
+        "checked_at": "2026-11-07T00:42:39.468367+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045,
@@ -136,18 +136,24 @@
       "square": {
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
-        "NOTE": "Owned feed identity polius2007 verified. Counters unchanged at 4/2/2. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
-        "checked_at": "2026-11-06T21:40:48.638698+00:00",
+        "NOTE": "Owned feed author links identify polius2007. Counter increased from 2 to 3 on post 380853705525088. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
+        "checked_at": "2026-11-07T00:42:48.398179+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
-        "unique_posts": 180,
+        "unique_posts": 181,
         "comment_counters": {
           "372255207843172": 4,
-          "380853705525088": 2,
+          "380853705525088": 3,
           "379346865303487": 2
+        },
+        "counter_changes": {
+          "380853705525088": {
+            "before": 2,
+            "after": 3
+          }
         }
       },
-      "NOTE": "Bounded reads succeeded. No new Telegram comments, verified replies, or escalations. Square positive counters do not establish body review. No material blocker change; quiet cycle. No scheduler or source queue changes.",
+      "NOTE": "Bounded reads succeeded. No new Telegram follow-ups, verified replies or escalations. Square counter change recorded without claiming comment-body review. Blocker unchanged. No scheduler or source queue changes.",
       "new_reply_receipts": [],
       "new_escalations": []
     }
