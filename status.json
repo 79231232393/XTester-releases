@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:38:17.213060+00:00",
+  "updated": "2026-11-12T22:40:27.718113+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -121,7 +121,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-12T19:38:16.790143+00:00",
+      "checked_at": "2026-11-12T22:40:26.360146+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -131,7 +131,7 @@
         "posts_inspected": 100,
         "reply_count": 0,
         "NOTE": "Full returned parent thread reviewed. Historical baseline comment only; no new follow-ups, sends or escalations. Receipt file absent.",
-        "checked_at": "2026-11-12T19:37:46.181328+00:00",
+        "checked_at": "2026-11-12T22:39:34.644913+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045
@@ -141,7 +141,7 @@
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
         "NOTE": "Owned feed username polius2007 verified. Comment counters unchanged. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
-        "checked_at": "2026-11-12T19:37:55.912040+00:00",
+        "checked_at": "2026-11-12T22:39:50.107781+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
         "unique_posts": 212,
