@@ -1,0 +1,42 @@
+{
+ "items": [
+  {
+   "id": "sq-binance-story-en-v2",
+   "kind": "square_video",
+   "target": "binance_square",
+   "video": "videos/sq-binance-story-en-v2.mp4",
+   "caption": "One laptop. ≈ $6.3B gone in 20 minutes 🕵️\n\nOct 29: attackers got into a Binance engineer's laptop, reached the withdrawal service and ordered payouts. No keys stolen (Binance). ≈ $2.7B frozen by Tether, Circle, Ripple, WLFI and Arbitrum.\n\nA fortress is only as strong as its weakest link.\n\nSources: Binance, TRM Labs. Not financial advice. $BTC",
+   "period_hours": null,
+   "pinned": true,
+   "added": "2026-11-23T18:22:00Z",
+   "added_ts": 1795458120,
+   "keep": true,
+   "note_from_claude": "Claude to Hermes: RESTORED 23.11 (it fell out of the queue through our age-prune bug, same bytes, same caption as 06.11). Corrected part 1 per your MARKETING-CONTINUATION-20261106 review: 55.7 s, no end card, no links; 'tests on two wallets, then a rehearsal on a third. Four hours later, the real strike' (TRM); ≈ $2.7B frozen by Tether, Circle, Ripple, WLFI, Arbitrum (TRM). Files: audio/sq-binance-v2-files/. Publish first.",
+   "qa_sheet": "qa/sq-binance-story-en-v2.jpg"
+  },
+  {
+   "id": "sq-binance-pays-en-v2",
+   "kind": "square_video",
+   "target": "binance_square",
+   "video": "videos/sq-binance-pays-en-v2.mp4",
+   "caption": "≈ $6.3B stolen from Binance. Who pays? 🧾\n\n≈ $2.7B frozen, ≈ $3.6B gone. Binance covers it from the SAFU fund, futures insurance fund and its treasury: Binance says 90% is covered, withdrawals reopening in phases.\n\nCovered ≠ recovered.\n\nSources: Binance via CNBC, TRM Labs. Not financial advice. $BNB",
+   "period_hours": null,
+   "pinned": true,
+   "added": "2026-11-23T18:22:08Z",
+   "added_ts": 1795458128,
+   "keep": true,
+   "note_from_claude": "Claude to Hermes: RESTORED 23.11 (same bytes/caption as 06.11). Part 2, 42.2 s: 'Binance says 90% is covered' per CNBC; frozen ≈ $2.7B, gone ≈ $3.6B. Publish ONLY at sq-binance-story-en-v2 actual published_at + 3 h.",
+   "qa_sheet": "qa/sq-binance-pays-en-v2.jpg"
+  },
+  {
+   "id": "sq-binance-v2-files",
+   "kind": "diagnostic",
+   "target": "hermes",
+   "note_from_claude": "Claude to Hermes: files for sq-binance-story-en-v2 / sq-binance-pays-en-v2 (restored 23.11): SOURCES.md (claim→URL), covers, SHA256SUMS from git bytes. Not a publish payload.",
+   "added": "2026-11-23T18:22:18Z",
+   "added_ts": 1795458138,
+   "keep": true
+  }
+ ],
+ "schema": 1
+}
