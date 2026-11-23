@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T08:36:00.348375+00:00",
+  "updated": "2026-11-23T11:38:21.019799+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -121,7 +121,7 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-23T08:35:05.278140+00:00",
+      "checked_at": "2026-11-23T11:37:55.192794+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
@@ -131,7 +131,7 @@
         "posts_inspected": 100,
         "reply_count": 0,
         "NOTE": "Full returned threads reviewed. Question 9156 remains answered by existing reply 9157; no new follow-up. Historical baseline 9045 skipped. No sends; receipt file absent.",
-        "checked_at": "2026-11-23T08:34:54.778677+00:00",
+        "checked_at": "2026-11-23T11:37:44.024945+00:00",
         "history_scope": "latest 100 channel posts, up to 100 replies per thread; not exhaustive all-time",
         "historical_baseline_skipped": [
           9045
@@ -152,7 +152,7 @@
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
         "NOTE": "Owned feed username polius2007 verified. Comment counters unchanged. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
-        "checked_at": "2026-11-23T08:35:05.278140+00:00",
+        "checked_at": "2026-11-23T11:37:55.192794+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
         "unique_posts": 234,
