@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T00:01:22.989886+00:00",
+  "updated": "2026-11-25T03:03:27.938071+00:00",
   "note": "run finished",
   "done": {
     "13-bossfight": {
@@ -121,22 +121,28 @@
     },
     "tg-comments-replies-1": {
       "state": "active_partial",
-      "checked_at": "2026-11-25T00:00:58.467690+00:00",
+      "checked_at": "2026-11-25T03:03:04.678523+00:00",
       "job_id": "00fa5fd84f34",
       "interval_minutes": 180,
       "telegram": {
-        "state": "blocked_read_failed",
-        "checked_at": "2026-11-25T00:00:47.723244+00:00",
-        "last_good_read_at": "2026-11-24T20:58:44.242743+00:00",
-        "current_threads_reviewed": false,
+        "state": "read_ok",
+        "checked_at": "2026-11-25T03:02:42.373135+00:00",
+        "last_good_read_at": "2026-11-25T03:02:42.373135+00:00",
+        "current_threads_reviewed": true,
+        "post_count": 100,
+        "reviewed_comment_ids": [
+          9156,
+          9157,
+          9045
+        ],
         "reply_count": 0,
-        "blocker": "GetFullChannelRequest: RpcCallFailError twice"
+        "blocker": null
       },
       "square": {
         "state": "blocked_comment_api_unavailable",
         "reply_count": 0,
         "NOTE": "Owned feed username polius2007 verified. Comment counters unchanged. Comment bodies and authors not reviewed; COMMENT_API_UNAVAILABLE unchanged. No sends attempted.",
-        "checked_at": "2026-11-25T00:00:58.467690+00:00",
+        "checked_at": "2026-11-25T03:03:04.678523+00:00",
         "blocker": "COMMENT_API_UNAVAILABLE",
         "comment_bodies_reviewed": false,
         "unique_posts": 234,
@@ -147,7 +153,7 @@
         },
         "counter_changes": {}
       },
-      "NOTE": "Telegram read failed before fresh threads; prior snapshot retained. No sends or escalations.",
+      "NOTE": "Telegram read restored; 9156 already answered by 9157, 9045 predates cutoff without follow-up. No sends or escalations.",
       "new_reply_receipts": [],
       "new_escalations": []
     }
